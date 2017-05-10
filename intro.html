@@ -4,7 +4,7 @@
 <style>
   .divider.horizontal .row .columns {
     background-color: #fef135;
-    background-image: url(main-divider.png);
+    background-image: url(/main-divider.png);
     background-position: initial;
     background-repeat: repeat-x;
     background-size: 5rem 1.25rem;
@@ -36,10 +36,12 @@
     margin: 0;
     padding: 0 0 0 .3125rem;
     background-color: #fef135;
-    background-image: url(main-divider-vertical.png);
+    background-image: url(../images/main-divider-vertical.png);
     background-position: initial;
     background-repeat: repeat-y;
     background-size: 1.25rem 5rem;
+    border: 2px solid black;
+    height: 100em;
 }
 .secondary-navigation ul li {
     display: block;
@@ -49,6 +51,7 @@
     background-color: #f0eeee;
     border-bottom: .0625rem solid #fff;
     box-sizing: border-box;
+    height: 60px;
     
 }
 dl, ol, ul {
@@ -59,9 +62,12 @@ dl, ol, ul {
 .side-nav, dl, ol, ul {
     list-style-position: outside;
 }
-.secondary-navigation ul li:hover {
-    background-color: #fef135;
-    color: #000;
+ul li:hover {
+    color: #fef135;
+    background-color: #000;
+}
+a:hover{
+    color: #fef135;
 }
 *, :after, :before {
     box-sizing: inherit;
@@ -81,6 +87,11 @@ section{
     background-color: #fef135;
     color: #000;
 }
+.bottom{
+    width=60px;
+    height=100em
+    
+}
 </style>
     </head>
     <body>
@@ -94,55 +105,158 @@ section{
     <div class="row">
         <div class="small-12 medium-9 columns">
             <div class="title-wrapper">
-                <h1>A Tale of Two Cities</h1>
-                <h2 id="phsubheader_0_spAuthor" class="subtitle">Charles Dickens</h2>
-            </div>
+                <h1>A Tale of Two Cities and The Kite Runner Multi-Genre Project</h1>
+                <h2 id="phsubheader_0_spAuthor" class="subtitle">Nick McDonough</h2>
+            </div> 
             </div>
             </div>
     
 
 </section>
 <section class="secondary-navigation">
-    <a href="#" class="mobile-nav-button white-link show-for-small-only"><span>All Subjects</span><i class="icon-Arrow_next"></i></a>
     
             <ul>
+
         
-            <li class="sign-post">
-                <a class="forward-link" href="/literature/t/a-tale-of-two-cities/a-tale-of-two-cities-at-a-glance"><span><i>A Tale of Two Cities </i>at a Glance</a>
+            <li class="">
+                Introduction
                 
             </li>
             
         
             <li class="">
-                <a class="forward-link" href="/literature/t/a-tale-of-two-cities/book-summary"><span>Book Summary</a>
+                Analytical Essay
                 
             </li>
             
         
             <li class="">
-                <a class="forward-link" href="/literature/t/a-tale-of-two-cities/about-a-tale-of-two-cities"><span>About <i>A Tale of Two Cities</i></a>
+                Character List
                 
             </li>
             
         
             <li class="">
-                <a class="forward-link" href="/literature/t/a-tale-of-two-cities/character-list"><span>Character List</a>
-                
-            </li>
-            
-        
-            <li class="">
-                <a class="forward-link" href="/literature/t/a-tale-of-two-cities/summary-and-analysis/book-1-chapter-1"><span>Summary and Analysis</a>
+                Other genre
                 
             </li>
             
                     <li visible='True' class="">
-                        <a class="forward-link" href="/literature/t/a-tale-of-two-cities/summary-and-analysis/book-1-chapter-1"><span>Book 1: Chapter 1</a>
+                        Reflection
                         
                     </li>
+                    <li id="bottom"></li>
             </ul>
         
 </section>
+<footer id="footer" class="site-footer">
+    <!-- Insert new footer ad -->
+    <div class="gts-placeholder-wrapper middle" id='footerCliffsnotesAd'>
+        <script type='text/javascript'>
+            googletag.cmd.push(function () { googletag.display('footerCliffsnotesAd'); });
+        </script>
+    </div>
+
+    <!--    First section of the footer, the black panel -->
+    <div class="top">
+        <div class="row">
+            <div class="small-12 columns text-center">
+                
+                    <img src="cliffs_notes_logo.png" alt="" width="271" height="42" />
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="small-12 columns">
+                <p>
+                    CliffsNotes study guides are written by real teachers and professors, so no matter what you're studying, CliffsNotes can ease your homework headaches and help you score high on exams.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--    Second section of the footer, the dark grey panel -->
+    <div class="middle">
+        <div class="row">
+            <div class="small-12 columns">
+                <nav>
+                    <ul>
+                        
+                                <li>
+                                    <a href="/discover-about">
+                                        About CliffsNotes
+                                    </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="/discover-advertise">
+                                        Advertise with Us
+                                    </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="/discover-contact">
+                                        Contact Us
+                                    </a>
+                                </li>
+                            
+                        <li><span>Follow us:</span>
+                            <a href="https://twitter.com/cliffs_notes" target="_blank">
+                                <img src="/Sites/Cliffsnotes/images/icon-twitter-color.png" alt="Twitter" class="img-twitter" />
+                            </a>
+                            <a href="https://www.facebook.com/CliffsNotes" target="_blank">
+                                <img src="/Sites/Cliffsnotes/images/icon-facebook-color.png" alt="Facebook" class="img-facebook" />
+                            </a>
+                            <a href="https://www.youtube.com/user/cliffsnotes/videos" target="_blank">
+                                <img src="/Sites/Cliffsnotes/images/icon-youtube-color.png" alt="Youtube" class="img-youtube" />
+                            </a>
+                            <a href="https://instagram.com/cliffsnotesofficial/" target="_blank">
+                                <img src="/Sites/Cliffsnotes/images/icon-instagram-color.png" alt="Instagram" class="img-instagram" />
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--    Third section of the footer, the light gray panel -->
+    <div class="bottom">
+        <div class="row">
+            <div class="small-12 columns text-center">
+                <p>
+                    &#169; 2016 Houghton Mifflin Harcourt. All rights reserved.
+                </p>
+                
+                        <p>
+                            <a href="http://www.hmhco.com/common/terms-conditions">
+                                Terms &amp; Conditions
+                            </a>
+                        </p>
+                    
+                        <p>
+                            <a href="http://www.hmhco.com/common/privacy-policy">
+                                Privacy Policy
+                            </a>
+                        </p>
+                    
+                        <p>
+                            <a href="/disclaimer">
+                                Disclaimer
+                            </a>
+                        </p>
+                    
+                        <p>
+                            <a href="/sitemap">
+                                Sitemap
+                            </a>
+                        </p>
+                    
+            </div>
+        </div>
+    </div>
+</footer>
+
 
 </form>
     </body>
